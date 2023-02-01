@@ -8,7 +8,6 @@ export function App() {
     <ThemeProvider theme={defaultTheme}>
       <GlobalStyle />
       <Transactions />
-      <h1>Hello</h1>
     </ThemeProvider>
   )
 }
