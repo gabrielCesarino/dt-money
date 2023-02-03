@@ -1,20 +1,44 @@
 {
-    "transactions": [
-       {
-        "id": 1,
-        "description": "Desenvolvimento de site",
-        "type": "income",
-        "category": "Venda",
-        "price": 14000,
-        "createdAt": "2023-02-03T12:30:20.769Z"
-       },
-       {
-        "id": 2,
-        "description": "Hamburguer",
-        "type": "outcome",
-        "category": "Alimentação",
-        "price": 50,
-        "createdAt": "2023-02-03T12:00:20.769Z"
-       }
-    ]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2023-02-03T12:30:20.769Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2023-02-03T12:00:20.769Z"
+    },
+    {
+      "description": "McDonalds",
+      "price": 50,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2023-02-03T20:26:03.141Z",
+      "id": 3
+    },
+    {
+      "description": "Desenvolvimento de App",
+      "price": 5000,
+      "category": "Desenvolvimento",
+      "type": "income",
+      "createdAt": "2023-02-03T20:27:21.330Z",
+      "id": 4
+    },
+    {
+      "description": "Freelance - Design",
+      "price": 5000,
+      "category": "Design",
+      "type": "income",
+      "createdAt": "2023-02-03T20:38:52.155Z",
+      "id": 5
+    }
+  ]
 }
