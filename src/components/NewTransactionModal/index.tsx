@@ -16,7 +16,7 @@ const newTransactionFormSchema = z.object({
 type NewTransactionFormInputs = z.infer<typeof newTransactionFormSchema>
 
 export function NewTransactionModal() {
-    const { control, register, handleSubmit, formState: { isSubmitting } } = useForm<NewTransactionFormInputs>({
+    const { control, register, handleSubmit, formState: { isSubmitting }, reset } = useForm<NewTransactionFormInputs>({
         resolver: zodResolver(newTransactionFormSchema),
         defaultValues: {
             type: 'income'
@@ -25,8 +25,8 @@ export function NewTransactionModal() {
 
     async function handleCreateNewTransaction(data: NewTransactionFormInputs) {
         await new Promise(resolve => setTimeout(resolve, 2000));
-
         console.log(data)
+        reset();
     }
 
     return (
